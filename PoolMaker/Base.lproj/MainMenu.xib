@@ -18,7 +18,7 @@
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
-        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6" customClass="WindowController" customModule="PoolMaker" customModuleProvider="target">
             <items>
                 <menuItem title="PoolMaker" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>

@@ -13,8 +13,8 @@
 		3F3264721C7F5CBE008BD58B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3264701C7F5CBE008BD58B /* MainMenu.xib */; };
 		3F32647D1C7F5CBE008BD58B /* PoolMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32647C1C7F5CBE008BD58B /* PoolMakerTests.swift */; };
 		3F3264881C7F5CBE008BD58B /* PoolMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3264871C7F5CBE008BD58B /* PoolMakerUITests.swift */; };
-		3F3264981C7F601D008BD58B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3264971C7F601D008BD58B /* WindowController.swift */; };
-		3F32649B1C7F76FD008BD58B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32649A1C7F76FD008BD58B /* Player.swift */; };
+		3F32649E1C7F8079008BD58B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32649D1C7F8079008BD58B /* Player.swift */; };
+		3F3264A21C7F80B1008BD58B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3264A11C7F80B1008BD58B /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		3F3264831C7F5CBE008BD58B /* PoolMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3264871C7F5CBE008BD58B /* PoolMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolMakerUITests.swift; sourceTree = "<group>"; };
 		3F3264891C7F5CBE008BD58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3264971C7F601D008BD58B /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		3F32649A1C7F76FD008BD58B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3F32649D1C7F8079008BD58B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = PoolMaker/Player.swift; sourceTree = "<group>"; };
+		3F3264A11C7F80B1008BD58B /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowController.swift; path = PoolMaker/WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		3F3264991C7F6087008BD58B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F3264971C7F601D008BD58B /* WindowController.swift */,
+				3F3264A11C7F80B1008BD58B /* WindowController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 		3F32649C1C7F7DB5008BD58B /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
-				3F32649A1C7F76FD008BD58B /* Player.swift */,
+				3F32649D1C7F8079008BD58B /* Player.swift */,
 			);
 			name = "Data Structures";
 			sourceTree = "<group>";
@@ -274,9 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F32649B1C7F76FD008BD58B /* Player.swift in Sources */,
 				3F32646D1C7F5CBD008BD58B /* PoolMaker.xcdatamodeld in Sources */,
-				3F3264981C7F601D008BD58B /* WindowController.swift in Sources */,
+				3F3264A21C7F80B1008BD58B /* WindowController.swift in Sources */,
+				3F32649E1C7F8079008BD58B /* Player.swift in Sources */,
 				3F32646A1C7F5CBD008BD58B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
